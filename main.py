@@ -17,7 +17,6 @@ st.markdown(f""" <style>
         padding-bottom: {padding}rem;
     }} </style> """, unsafe_allow_html=True)
 
-import streamlit_authenticator as stauth
 import pandas as pd
 import datetime
 import hashlib
